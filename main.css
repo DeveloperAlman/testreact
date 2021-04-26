@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #fafafa;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+.MuiPaper-rounded {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06) !important;
+    border-radius: 10px !important;
+    border: 2px solid rgba(0, 0, 0, 0.05) !important;
+    padding: 15px 0 !important;
+}
+
+.MuiCardMedia-root {
+    background-size: contain !important;
+    width: 80% !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.buttons button,
+.buttons a {
+    display: inline-block !important;
+    font-size: 15px !important;
+    border-radius: 5rem !important;
+    transition: all 0.5s ease !important;
+    padding: 8px 20px !important;
+    text-transform: uppercase !important;
+    color: white !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+.buttonRemove .btn {
+    display: inline-block !important;
+    font-size: 15px !important;
+    border-radius: 5rem !important;
+    transition: all 0.5s ease !important;
+    padding: 7px 17px !important;
+    text-transform: uppercase !important;
+    color: white !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+.MuiTypography-root {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.MuiContainer-root {
+    padding: 14px 15px !important;
+}
+
+.checkout {
+    max-width: 740px !important;
+    padding: 10px !important;
+    margin: 0 auto !important;
+}
+
+.checkout>div {
+    padding: 50px 25px !important;
+}
+
+.buttonsAddress>a {
+    color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.buttonsAddress .buttonBackPay {
+    color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.subtotal {
+    margin-right: 25px !important;
+}
+
+.checkout a {
+    display: inline-block !important;
+    font-size: 15px !important;
+    border-radius: 5rem !important;
+    transition: all 0.5s ease !important;
+    padding: 8px 20px !important;
+    text-transform: uppercase !important;
+    color: rgba(0, 0, 0, 0.54) !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+.products {
+    padding: 50px 15px !important;
+}
